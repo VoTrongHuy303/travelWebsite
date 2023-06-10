@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./js/main.js"></script>
+</head>
+
+<body onload="loadtheme()">
+    <div class="pick-color">
+        <div id="c1"></div>
+        <div id="c2"></div>
+        <div id="c3"></div>
+    </div>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="nav__logo">
+                    <span class="logo-text">Travel</span>
+                    <!-- <img src="./img/logoTravel.png" alt=""> -->
+                </div>
+                <div class=" hide-element nav__menu">
+                    <ul class="nav__menu--left">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Chuyến đi</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Tin tức</a></li>
+                    </ul>
+                    <ul class="nav__menu--right">
+                        <li><button class="btn login-btn"><a href="./pages/login.html">Đăng Nhập</a></button></li>
+                        <li><button class="btn slide__btn signUp-btn"><a href="./pages/login.html">Đăng ký</a></button></li>
+                    </ul>
+                </div>
+                <!-- close nav__menu -->
+                
+                <div class="nav__icon">
+                    <!-- <i class="nav__icon--hbg fa-sharp fa-solid fa-bars"></i> -->
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>
+                </div>
+
+
+            </nav>
+            <div class="header__slider-area">
+                <div class="header__slider-aria--content">
+                    <div class="header-content--container">
+                        <h1 class="header-content--title">Khám phá khắp thế giới</h1>
+                        <p class="header-content--subtitle">Khám phá thế giới với trang web du lịch của chúng tôi - trải nghiệm, thông
+                            tin và lời khuyên cho những chuyến đi đáng nhớ.</p>
+                        <button class="btn slide__btn header-content--btn">Xem thêm</button>
+                    </div>
+            <!-- close header-content__text -->
+    </div>
+    <!--close header__slider-aria--content-->
+    <div class="header__slider-aria--slides">
+        <div class="slider-container">
+            <div class="slider-container__stuff">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+                <div class="slide first">
+                    <img src="./img/slide1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slide2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slide3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slide4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slide5.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+            <!-- close slider-container__stuff -->
+        </div>
+        <!-- close slider-container -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+    </div>
+    <!--close header__slider-aria--slides -->
+    </div>
+    <!-- close header__slider-area -->
+    </header>
+    <main>
+        <hr>
+        <section class="popular-tour">
+            <h2 class="popular-tour--title">Địa điểm phổ biến</h2>
+            <section class="cards--container">
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-1.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-2.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-3.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-4.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-5.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+                <article class="card">
+                    <article class="card__image">
+                        <img src="./img/location-6.jpg" alt="">
+                    </article>
+                    <article class="Card__infor-location">
+                        <h3 class="location-infor">Lago di Braies</h3>
+                        <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                        <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                        <div class="card--detail">
+                            <a href="./pages/detailProduct.html">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                        </div>
+                    </article>
+                </article>
+            </section>
+            <!-- close cards--container -->
+        </section>
+        <section class="introduce-us">
+            <section class="introduce__img">
+                <img src="./img/img-D.jpg" alt="" width="100%">
+            </section>
+            <section class="introduce__content">
+                <h2 class="introduce__content--title">Tại sao lại chọn chúng tôi ?</h2>
+                <p class="introduce__subtance"> Khách hàng tin tưởng và chọn trang web của chúng tôi vì chúng mang đến một thế giới du lịch đa dạng
+                    và hấp dẫn. Với sự kết hợp của trải nghiệm du lịch tuyệt vời, thông tin chi tiết và lời khuyên hữu
+                    ích, chúng tôi là nguồn đáng tin cậy để khách hàng tạo ra những chuyến đi đáng nhớ. 
+                    thế giới.</p>
+                    <p class="introduce__subtance">Bằng cách cung
+                        cấp những gợi ý độc đáo và không gian sáng tạo, chúng tôi giúp khách hàng khám phá những điểm đến
+                        mới, tận hưởng những trải nghiệm autêntic và tạo ra những kỷ niệm vô giá trong hành trình khám phá</p>
+            </section>
+        </section>
+        <section class="packages-infor">
+            <h2 class="title-sec" >Gói dịch vụ</h2>
+            <section class="packages-contain">
+                <article class="package"><i class="package_icon fa-solid fa-plane"></i>
+                    <h4 class="package_title">Gói du lịch trọn gói</h4>
+                    <a href="">Xem thêm</a>
+
+                </article>
+
+                <article class="package"><i class="package_icon fa-sharp fa-solid fa-hotel"></i>
+                    <h4 class="package_title">Gói du lịch nghĩ dưỡng</h4>
+                    <a href="">Xem thêm</a>
+
+                </article>
+
+                <article class="package">
+
+                    <i class="package_icon fa-solid fa-users"></i>
+                    <h4 class="package_title">Gói du lịch cùng gia đình</h4>
+
+                    <a href="">Xem thêm</a>
+                </article>
+            </section>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <section class="col1">
+            <h3>Hỗ trợ ?</h3>
+            <ul>
+                <li><i class="fa-sharp fa-solid fa-location-dot"></i>Hẻm tổ 4, 259/6 KP 1, Tân Chánh Hiệp, Quận 12, Thành phố Hồ Chí Minh</li>
+                <li><i class="material-symbols-outlined">
+                        call
+                    </i>+840412356671</li>
+            </ul>
+        </section>
+        <section class="col2">
+            <h3>Mô tả</h3>
+            <ul>
+                <li>Đội ngũ</li>
+                <li>Faq</li>
+                <li>Đăng nhập</li>
+                <li>Đăng kí</li>
+            </ul>
+        </section>
+        <section class="col3">
+            <h3>Khám phá</h3>
+            <ul>
+                <li>Cộng đồng</li>
+                <li>Tua du lịch</li>
+                <li>cảm hứng du lịch</li>
+                <li>Danh sách ưa thích</li>
+            </ul>
+        </section>
+        <section class="col4">
+            <h3>Liên hệ</h3>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </section>
+    </footer>
+    </div>
+
+    <script>
+        var getMenu = document.querySelector('.nav__menu');
+        console.log(getMenu);    
+        document.getElementById('checkbox').onclick = function (e) {
+            getMenu.classList.toggle("hide-element");
+        };
+        var count = 1;
+        setInterval(() => {
+            if (count > 5) {
+                count = 1;
+            }
+            document.getElementById("radio" + count).checked = true;
+            count++;
+        }, 5000);
+
+        ScrollReveal({
+            reset: true,
+            distance: '500px',
+            duration: 2500,
+            delay: 100
+        });
+        ScrollReveal().reveal('.header-content--title', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.header-content--subtitle', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.header-content--btn', { delay: 500, origin: 'bottom' });
+        ScrollReveal().reveal('.introduce__content', { delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.introduce__img', { delay: 300, origin: 'left' });
+        ScrollReveal().reveal('.popular-tour--title', { delay: 400, origin: 'right' });
+
+        var getC1 = document.getElementById('c1');
+        var getC2 = document.getElementById('c2');
+        var getC3 = document.getElementById('c3');
+        getC1.addEventListener('click', function(){
+            document.documentElement.style.setProperty('--btn_main-color', 'rgb(35, 144, 233)');
+            localStorage.setItem("pickcolor",'rgb(35, 144, 233)');
+        });
+        getC2.addEventListener('click', function(){
+            document.documentElement.style.setProperty('--btn_main-color', 'orange');
+            localStorage.setItem("pickcolor",'orange');
+        });
+        getC3.addEventListener('click', function(){
+            document.documentElement.style.setProperty('--btn_main-color', 'green');
+            localStorage.setItem("pickcolor",'green');
+        });
+        function loadtheme(){
+            document.documentElement.style.setProperty('--btn_main-color', localStorage.getItem("pickcolor"));
+            
+        }
+    </script>
+</body>
+
+</html>

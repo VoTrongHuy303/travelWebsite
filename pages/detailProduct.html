@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/detailProduct.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="nav__logo">
+                    <span class="logo-text">Travel</span>
+                    <!-- <img src="./img/logoTravel.png" alt=""> -->
+                </div>
+                <div class=" hide-element nav__menu">
+                    <ul class="nav__menu--left">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Chuyến đi</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Tin tức</a></li>
+                    </ul>
+                    <ul class="nav__menu--right">
+                        <li><button class="btn login-btn"><a href="./login.html">Đăng Nhập</a></button></li>
+                        <li><button class="btn slide__btn signUp-btn"><a href="./login.html">Đăng ký</a></button></li>
+                    </ul>
+                </div>
+                <!-- close nav__menu -->
+                
+                <div class="nav__icon">
+                    <!-- <i class="nav__icon--hbg fa-sharp fa-solid fa-bars"></i> -->
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>
+                </div>
+            </nav>
+            
+            <!-- close header__slider-area -->
+            <div class="pages-infor__container">
+                <img src="../img/slide2.jpg" alt="">
+                <div class="pages-infor__container--text">
+                    <h1 class="current-page">Chi tiết gói du lịch</h1>
+                    <p class="back-link"><a class="back-link--actived" href="../index.html">Trang chủ</a> - <a class="back-link--actived" href="">Chuyến đi</a> - Chi tiết gói du lịch</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="product__detail">
+                <section class="product__detail--pic">
+                    <img src="../img/product__detail.jpg" alt="">
+                </section>
+                <section class="product__detail--infor">
+                    <h2 class="location__name">Lago di Braies</h2>
+                    <h3 class="location__name--detail"><i class="fa-sharp fa-solid fa-location-dot"></i> Italy</h3>
+                    <span class="rate__icon__container">
+                        <i class="rate__icon fa-solid fa-star"></i>
+                        <i class="rate__icon fa-solid fa-star"></i>
+                        <i class="rate__icon fa-solid fa-star"></i>
+                        <i class="rate__icon fa-solid fa-star"></i>
+                        <i class="rate__icon fa-solid fa-star"></i>
+                    </span>
+                    <p class="location__describe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolorum eveniet provident repudiandae commodi aliquam fugit officiis possimus vitae, voluptatum minus magni, animi iure maxime. Animi nemo facilis sequi non.</p>
+                    <div class="location__price">1.000.000 VNĐ <del>1.500.000 VNĐ   </del></div>
+                    <button class="btn slide__btn  book-tour__btn">Đặt chuyến đi ngay</button>
+                </section>
+            </section>
+            <hr>
+            <section class="describe__location">
+                <ul class="describe__location--detail">
+                    <li class="display--actived infor-product__title">Thông tin</li>
+                    <li class="infor-product__title" >Hướng dẫn</li>
+                    <li class="infor-product__title">Đánh giá</li>
+                </ul>
+                <section class="describe__infor-product">
+                    <p class="describe__infor-product--content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos at ab est. Quo modi ipsam praesentium provident officiis sint hic ducimus nostrum voluptatibus, fugit sunt sequi illum voluptatum aliquid? Quod!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore assumenda totam officiis asperiores nemo tempora, voluptatum incidunt doloribus atque possimus unde debitis repudiandae excepturi ipsam labore neque corporis! Porro, doloremque!
+                    </p>
+                    <p class="describe__infor-product--content">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem tempore aut exercitationem omnis praesentium corrupti autem? Libero reiciendis asperiores obcaecati dolor ratione illo harum consectetur doloribus rem laborum, quia veritatis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias placeat mollitia nesciunt eum ullam adipisci dolor laudantium accusamus voluptates aliquid cum, nostrum necessitatibus doloremque explicabo a nemo, minima repellendus iste.
+                    </p>
+                </section>
+            </section>
+            
+            <section class="relative__tour">
+                <h2 class="relative__tour--title">Những chuyến đi khác</h2>
+                <section class="cards--container">
+                    <article class="card">
+                        <article class="card__image">
+                            <img src="../img/location-1.jpg" alt="">
+                        </article>
+                        <article class="Card__infor-location">
+                            <h3 class="location-infor">Lago di Braies</h3>
+                            <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                            <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                            <div class="card--detail">
+                                <a href="">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                            </div>
+                        </article>
+                    </article>
+                    <article class="card">
+                        <article class="card__image">
+                            <img src="../img/location-2.jpg" alt="">
+                        </article>
+                        <article class="Card__infor-location">
+                            <h3 class="location-infor">Lago di Braies</h3>
+                            <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                            <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                            <div class="card--detail">
+                                <a href="">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                            </div>
+                        </article>
+                    </article>
+                    <article class="card">
+                        <article class="card__image">
+                            <img src="../img/location-3.jpg" alt="">
+                        </article>
+                        <article class="Card__infor-location">
+                            <h3 class="location-infor">Lago di Braies</h3>
+                            <span class="location-infor--contry"><i class="fa-sharp fa-solid fa-location-dot"></i>Italy</span>
+                            <div class="location--infor__price"> 1.000.000 VND <del>1.500.000VND</del></div>
+                            <div class="card--detail">
+                                <a href="">Chi tiết <i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+                            </div>
+                        </article>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <section class="footer__content--container">
+                <section class="col1">
+                    <h3>Hỗ trợ ?</h3>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i> Hẻm tổ 4, 259/6 KP 1, Tân Chánh Hiệp, Quận 12, Thành phố Hồ Chí Minh</li>
+                        <li><i class="material-symbols-outlined">
+                                call
+                            </i>+840412356671</li>
+                    </ul>
+                </section>
+                <section class="col2">
+                    <h3>Mô tả</h3>
+                    <ul>
+                        <li>Đội ngũ</li>
+                        <li>Faq</li>
+                        <li>Đăng nhập</li>
+                        <li>Đăng kí</li>
+                    </ul>
+                </section>
+                <section class="col3">
+                    <h3>Khám phá</h3>
+                    <ul>
+                        <li>Cộng đồng</li>
+                        <li>Tua du lịch</li>
+                        <li>cảm hứng du lịch</li>
+                        <li>Danh sách ưa thích</li>
+                    </ul>
+                </section>
+                <section class="col4">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+    </div>
+    <script>
+        var getMenu = document.querySelector('.nav__menu');
+        console.log(getMenu);    
+        document.getElementById('checkbox').onclick = function (e) {
+            getMenu.classList.toggle("hide-element");
+        };
+        var count = 1;
+        setInterval(() => {
+            if (count > 5) {
+                count = 1;
+            }
+            document.getElementById("radio" + count).checked = true;
+            count++;
+        }, 5000);
+         ScrollReveal({
+            reset: false,
+            distance: '500px',
+            duration: 2500,
+            delay: 100
+        });
+        ScrollReveal().reveal('.product__detail--pic', { delay: 400, origin: 'left' });
+        ScrollReveal().reveal('.product__detail--infor', { delay: 600, origin: 'right' });
+    </script>
+</body>
+</html>
