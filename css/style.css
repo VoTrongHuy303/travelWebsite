@@ -123,7 +123,10 @@ nav {
     font-weight: 700;
 
 }
-
+.nav__menu--left a:hover,
+.login-btn a:hover{
+    color: var(--btn_main-color);
+}
 .nav__menu--right button {
     border: none;
     background-color: none;
