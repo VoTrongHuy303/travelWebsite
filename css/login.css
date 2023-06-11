@@ -37,14 +37,16 @@ body {
   .login-header {
     color:#fff;
     text-align:center;
-    font-size:300%;
+    font-size:200%;
+    margin-top: 3.5em;
   }
   /* .login-header h1 {
      text-shadow: 0px 5px 15px #000;
   } */
   .login-form {
-    border:.5px solid #fff;
+/*     border:.5px solid #fff; */
     /* background:#4facff; */
+          background: linear-gradient(to top left, #ffffff52, #ffffff46);
     border-radius:10px;
     box-shadow:0px 0px 10px #000;
   }
@@ -113,4 +115,13 @@ body {
     .login-button {
       margin-bottom:10px;
     }
+      .login-form {
+    /* border:.5px solid #fff; */
+    /* background:#4facff; */
+    background: linear-gradient(to top left, #ffffff52, #ffffff46);
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+    margin-left:1em ;
+    margin-right: 1em;
+  }
   }
